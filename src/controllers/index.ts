@@ -1,7 +1,5 @@
 import { Request, Response } from 'express';
 import { validationResult } from "express-validator";
-// import paginate from '@src/middleware/pagination';
-// import workoutService from '@src/services';
 import mongoose from 'mongoose';
 import workoutService from '../services';
 import paginate from '../middleware/pagination';

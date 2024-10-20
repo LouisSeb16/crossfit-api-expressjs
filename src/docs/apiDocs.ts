@@ -1,7 +1,6 @@
 import { Router } from 'express';
 import { check } from "express-validator";
 import workoutController from '../controllers';
-// import workoutController from '@src/controllers';
 
 const router = Router();
 

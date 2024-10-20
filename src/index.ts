@@ -1,4 +1,3 @@
-// import 'module-alias/register';
 import bodyParser from 'body-parser';
 import cors from 'cors';
 import express from 'express';
@@ -19,11 +18,12 @@ app.use(limiter);
 
 app.use("/api/v1/workouts", router);
 
+swaggerDocs(app, port);
+
 connectDB()
     .then(() => {
         if (process.env.NODE_ENV !== 'test') {
             app.listen(port, () => {
-                swaggerDocs(app, port);
                 console.log(`Server is running on http://localhost:${port}`);
             });
         }
