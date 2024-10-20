@@ -14,6 +14,8 @@ app.use(bodyParser.json());
 
 app.use(cors());
 
+app.set('trust proxy', 1);
+
 app.use(limiter);
 
 app.use("/api/v1/workouts", router);
