@@ -1,7 +1,8 @@
 import express from 'express';
 import apicache from 'apicache'
-import workoutController from '@src/controllers';
+// import workoutController from '@src/controllers';
 import { check } from "express-validator";
+import workoutController from '../../controllers';
 
 const router = express.Router();
 

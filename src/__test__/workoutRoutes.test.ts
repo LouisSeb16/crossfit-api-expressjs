@@ -1,7 +1,8 @@
 import request from 'supertest';
 import mongoose from 'mongoose';
 import app from '../index';
-import workoutModel from '@src/models/workout';
+import workoutModel from '../models/workout';
+// import workoutModel from '@src/models/workout';
 
 describe('Workouts API', () => {
 

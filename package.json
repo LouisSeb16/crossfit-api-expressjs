@@ -12,9 +12,6 @@
   "author": "",
   "license": "ISC",
   "description": "",
-  "_moduleAliases": {
-    "@src": "src"
-  },
   "engines": {
     "node": ">=16.x"
   },

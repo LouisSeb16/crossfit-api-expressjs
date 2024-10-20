@@ -9,7 +9,7 @@ const config: Config.InitialOptions = {
     '^.+\\.ts$': 'ts-jest',
     },
     moduleNameMapper: {
-        '^@src/(.*)$': '<rootDir>/src/$1',
+        '^src/(.*)$': '<rootDir>/src/$1',
       },
   moduleFileExtensions: ['ts', 'js', 'json', 'node'],
 };

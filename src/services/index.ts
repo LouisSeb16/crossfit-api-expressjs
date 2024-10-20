@@ -1,4 +1,6 @@
-import workoutModel from "@src/models/workout";
+// import workoutModel from "@src/models/workout";
+
+import workoutModel from "../models/workout";
 
 const getAllWorkouts = async (query: any) => {
     const filter = {} as any;
